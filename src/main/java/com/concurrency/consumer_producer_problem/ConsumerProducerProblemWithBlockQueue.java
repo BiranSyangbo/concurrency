@@ -2,6 +2,10 @@ package com.concurrency.consumer_producer_problem;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
+/*Exercise 3. In the producer–consumer fable, we assumed that Bob can see whether the can on Alice’s windowsill is up or down.
+Design a producer–consumer protocol using cans and strings that works even if Bob cannot see the state of Alice’s can
+ (this is how real-world interrupt bits work).*/
+
 public class ConsumerProducerProblemWithBlockQueue {
 
     public static void main(String[] args) throws InterruptedException {
