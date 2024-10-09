@@ -21,8 +21,7 @@ public class PrisonCell {
 
     public synchronized void toggleLight() {
         this.light = !this.light;
-        int i = this.counter.incrementAndGet();
-        System.out.println("I " + i);
+        this.counter.incrementAndGet();
         notifyAll();
     }
 
